@@ -27,7 +27,7 @@ public class HajiyevMusicManager : MonoBehaviour {
 
     [Tooltip("If nonzero, fade out on pause or change track from middle of song for that many seconds")]
     [Range(0f, 10f)]
-    public float fadeOutTime = 1f;
+    public float fadeOutTime = 0.5f;
 
     [Tooltip("Volume control")]
     [Range(0f, 1f)]
