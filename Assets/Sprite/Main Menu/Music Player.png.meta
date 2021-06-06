@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: 2425546181218232259
     second: Music Player_Shuffle
+  - first:
+      213: 9137652742387223458
+    second: Music Player_RepeatOff
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -474,7 +477,7 @@ TextureImporter:
         width: 178
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,6 +485,27 @@ TextureImporter:
       bones: []
       spriteID: 3c761d5966549a120800000000000000
       internalID: 2425546181218232259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Music Player_RepeatOff
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 85
+        width: 160
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4dde71c67fce70800000000000000
+      internalID: 9137652742387223458
       vertices: []
       indices: 
       edges: []
