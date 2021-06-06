@@ -30,9 +30,9 @@ public class BarVisulization : MonoBehaviour
     {
         float[] musicData = GetComponent<AudioSource>().GetSpectrumData(64, 0, FFTWindow.Triangle);
         int i = 0;
-        while (i < 46)
+        while (i < 26)
         {
-            barsSprites[i].transform.localScale = new Vector3(musicData[i]/100, 0.0003f, 1);
+            barsSprites[i].transform.localScale = new Vector3(musicData[i]/100, 0.0006f, 1);
             barsSprites[i].color = HSVtoRGB((musicData[i]+1.0f) * colorMultiplyer, s, v, 1);
             i++;
         }
